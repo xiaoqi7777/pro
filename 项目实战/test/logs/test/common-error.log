@@ -1,0 +1,253 @@
+2019-04-03 13:52:47,276 ERROR 18084 [-/127.0.0.1/-/18ms GET /sg1] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18084
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:53:27,601 ERROR 2304 [-/127.0.0.1/-/28ms GET /sg1] nodejs.Template render error: (D:\ItData\zhufeng\项目实战\test\app\view\news.html) [Line 11, Column 7]
+  unexpected token: %
+  unexpected token: %
+    at Object._prettifyError (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:36:11)
+    at Template.render (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:542:21)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:366:27
+    at createTemplate (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:315:9)
+    at handle (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:327:11)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:339:9
+    at next (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 2304
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:53:45,832 ERROR 13952 [-/127.0.0.1/-/20ms GET /sg1] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13952
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:54:04,047 ERROR 13952 [-/127.0.0.1/-/4ms GET /sg1] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13952
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:54:05,026 ERROR 1472 [-/127.0.0.1/-/25ms GET /sg1] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1472
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:54:05,217 ERROR 1472 [-/127.0.0.1/-/3ms GET /sg1] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1472
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:54:13,044 ERROR 1472 [-/127.0.0.1/-/3ms GET /sg1] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 1472
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:54:15,227 ERROR 13700 [-/127.0.0.1/-/24ms GET /sg1] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13700
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:54:15,403 ERROR 13700 [-/127.0.0.1/-/4ms GET /sg1] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13700
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:54:15,554 ERROR 13700 [-/127.0.0.1/-/1ms GET /sg1] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13700
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:54:34,816 ERROR 15108 [-/127.0.0.1/-/37ms GET /sg1] nodejs.Template render error: (D:\ItData\zhufeng\项目实战\test\app\view\news.html) [Line 11, Column 7]
+  unexpected token: %
+  unexpected token: %
+    at Object._prettifyError (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:36:11)
+    at Template.render (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:542:21)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:366:27
+    at createTemplate (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:315:9)
+    at handle (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:327:11)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:339:9
+    at next (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 15108
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 13:54:34,980 ERROR 15108 [-/127.0.0.1/-/4ms GET /sg1] nodejs.Template render error: (D:\ItData\zhufeng\项目实战\test\app\view\news.html) [Line 11, Column 7]
+  unexpected token: %
+  unexpected token: %
+    at Object._prettifyError (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:36:11)
+    at Template.render (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:542:21)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:366:27
+    at createTemplate (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:315:9)
+    at handle (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:327:11)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:339:9
+    at next (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\ItData\zhufeng\项目实战\test\node_modules\_nunjucks@3.2.0@nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 15108
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 14:08:51,438 ERROR 15660 [-/127.0.0.1/-/19ms GET /sg1] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.index (D:\ItData\zhufeng\项目实战\test\app\controller\news.js:7:29)
+    at Object.callFn (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-core@4.16.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-core@4.16.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 15660
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 14:09:19,428 ERROR 15160 [-/127.0.0.1/-/10ms GET /sg1] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.index (D:\ItData\zhufeng\项目实战\test\app\controller\news.js:7:29)
+    at Object.callFn (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-core@4.16.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-core@4.16.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 15160
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 14:10:03,072 ERROR 16888 [-/127.0.0.1/-/8ms GET /sg1] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.index (D:\ItData\zhufeng\项目实战\test\app\controller\news.js:7:29)
+    at Object.callFn (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-core@4.16.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-core@4.16.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 16888
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 14:10:16,484 ERROR 18012 [-/127.0.0.1/-/10ms GET /sg1] nodejs.TypeError: Cannot read property 'news' of undefined
+    at NewsController.index (D:\ItData\zhufeng\项目实战\test\app\controller\news.js:7:29)
+    at Object.callFn (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-core@4.16.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\ItData\zhufeng\项目实战\test\node_modules\_egg-core@4.16.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\ItData\zhufeng\项目实战\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18012
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 14:11:04,202 ERROR 3896 [-/127.0.0.1/-/1037ms GET /sg1] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:443, GET https://localhost/news -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:443::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/news"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":1019,"keepAliveSocket":false,"requestUrls":["https://localhost/news"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3896
+hostname: DESKTOP-8Q04SQQ
+
+2019-04-03 14:12:01,709 ERROR 15900 [-/127.0.0.1/-/1038ms GET /sg1] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:443, GET https://localhost/news -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"localhost:443::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/news"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":1021,"keepAliveSocket":false,"requestUrls":["https://localhost/news"],"timing":null,"remoteAddress":"127.0.0.1","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 15900
+hostname: DESKTOP-8Q04SQQ
+

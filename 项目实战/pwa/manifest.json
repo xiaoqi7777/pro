@@ -1,0 +1,14 @@
+{
+  "name":"珠峰xx",
+  "short_name":"学习",
+  "display":"standalone",
+  "scope": "/",
+  "start_url":"/index.html",
+  "icons":[{
+    "src":"./logo.jpg",
+    "sizes":"144x144",
+    "type":"image/png"
+  }],
+  "background_color":"#aaa",
+  "theme_color":"#aaa"
+}

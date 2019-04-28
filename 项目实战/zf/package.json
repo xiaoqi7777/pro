@@ -1,0 +1,22 @@
+{
+  "name": "zf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "zf": "./bin/index.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.4.0",
+    "@babel/traverse": "^7.4.3",
+    "@babel/types": "^7.4.0",
+    "babylon": "^6.18.0",
+    "tapable": "^1.1.3"
+  }
+}

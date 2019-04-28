@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+    <a onclick="change('/home')" href="#/home">首1页</a>
+    <a onclick="change('/list111111111')"  href="#/list">列表页</a>
+    <a id='container'>首页</a>
+
+    <script>
+      function change(url){
+        history.pushState({},null,url)
+        container.innerHTML = url
+      }
+      // history api 只能通过popstate 监听浏览器的进行和后退
+      window.addEventListener('popstate',function () {
+        container.innerHTML = window.location.pathname
+        console.log('--------')
+        // alert(1)
+      })
+    </script>
+
+</body>
+</html>

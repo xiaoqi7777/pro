@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="dom"></div>
+  <script>
+    // let channel = new MessageChannel()
+    // let post1 = channel.port1
+    // let post2 = channel.port2
+
+    // post2.onmessage = function(data){
+    //   console.log('data',data)
+    // }
+    // post1.postMessage('123')
+    // console.log('====================================');
+    // console.log('---------');
+    // console.log('====================================');
+
+    
+    let dom = document.querySelector('#dom')
+    let observer = new MutationObserver(()=>{
+      console.log('当前节点执行完成')
+    })
+    observer.observe(dom,{
+      childList:true
+    })
+    for(let i=0;i<1000;i++){
+      dom.appendChild(document.createElement('p'))
+    }
+    
+
+  </script>
+</body>
+</html>

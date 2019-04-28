@@ -1,0 +1,5 @@
+body{
+  background: red;
+  transform: translate('100px');
+  background-image: url('./1.jpg')
+}

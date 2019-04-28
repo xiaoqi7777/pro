@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  asd
+  <!-- <script>
+    let xhr = new XMLHttpRequest();
+    xhr.open('post','http://localhost:3001/reg',true)
+    xhr.setRequestHeader('Content-Type','application/json')
+    // xhr.setRequestHeader('Content-Type','application/www-x-form-urlencoded')
+    xhr.onload = function (data) { 
+      console.log(xhr.response)
+     }
+     xhr.send('{"name":"zfpx"}');
+
+    xhr.send('{"name":"zfpx"}')
+  </script> -->
+
+<script>
+    let xhr = new XMLHttpRequest();
+    xhr.open('post','http://localhost:3001/reg',true);
+    xhr.setRequestHeader('Content-Type','application/json');
+    // xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+    xhr.onload = function () {
+      console.log(xhr.response);
+    }
+    //  xhr.send('{"name":"zfpx"}');
+    xhr.send('name=zfpx')
+  </script>
+
+</body>
+</html>

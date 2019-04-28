@@ -1,0 +1,14 @@
+2019-04-03 19:50:18,838 INFO 10600 [egg:logger] init all loggers with options: {"dir":"D:\\ItData\\zhufeng\\项目实战\\egg-news\\logs\\egg-news","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"egg-news-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-04-03 19:50:18,844 INFO 10600 [egg-multipart] stream mode enable
+2019-04-03 19:50:18,933 INFO 10600 [egg-static] starting static serve /public/ -> D:\ItData\zhufeng\项目实战\egg-news\app\public
+2019-04-03 19:50:18,935 INFO 10600 [egg-security] use methodnoallow middleware
+2019-04-03 19:50:18,936 INFO 10600 [egg-security] use noopen middleware
+2019-04-03 19:50:18,937 INFO 10600 [egg-security] use nosniff middleware
+2019-04-03 19:50:18,938 INFO 10600 [egg-security] use xssProtection middleware
+2019-04-03 19:50:18,938 INFO 10600 [egg-security] use xframe middleware
+2019-04-03 19:50:18,938 INFO 10600 [egg-security] use dta middleware
+2019-04-03 19:50:18,938 INFO 10600 [egg-security] compose 6 middlewares into one security middleware
+2019-04-03 19:50:18,954 INFO 10600 [egg:core] dump config after load, 11ms
+2019-04-03 19:50:18,963 INFO 10600 [egg-watcher:application] watcher start success
+2019-04-03 19:50:18,994 INFO 10600 [egg:core] dump config after ready, 30ms
+2019-04-03 19:50:19,026 INFO 10600 [egg-view-nunjucks] loading templates from ["D:\\ItData\\zhufeng\\项目实战\\egg-news\\app\\view"]

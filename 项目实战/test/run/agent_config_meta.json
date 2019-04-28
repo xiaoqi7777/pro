@@ -1,0 +1,271 @@
+{
+  "keys": "D:\\ItData\\zhufeng\\项目实战\\test\\config\\config.default.js",
+  "view": {
+    "defaultExtension": "D:\\ItData\\zhufeng\\项目实战\\test\\config\\config.default.js",
+    "defaultViewEngine": "D:\\ItData\\zhufeng\\项目实战\\test\\config\\config.default.js",
+    "mapping": {
+      ".html": "D:\\ItData\\zhufeng\\项目实战\\test\\config\\config.default.js"
+    },
+    "root": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "cache": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js"
+  },
+  "news": {
+    "newsUrl": "D:\\ItData\\zhufeng\\项目实战\\test\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "useSession": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "headerName": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "queryName": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "value": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "value": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "value": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "policy": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-security@2.5.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js",
+      "development": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-schedule@3.6.1@egg-schedule\\config\\config.default.js",
+      "file": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-schedule@3.6.1@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-schedule@3.6.1@egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "files": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-multipart@2.4.0@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-development@2.4.2@egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-development@2.4.2@egg-development\\config\\config.default.js",
+    "fastReady": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-development@2.4.2@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-development@2.4.2@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-development@2.4.2@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-logrotator@3.0.7@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-logrotator@3.0.7@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-logrotator@3.0.7@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-logrotator@3.0.7@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-logrotator@3.0.7@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-logrotator@3.0.7@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-logrotator@3.0.7@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "name": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "proxy": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "version": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "description": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "main": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "scripts": {
+      "test": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "dev": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+    },
+    "keywords": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "author": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "license": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "moment": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "HOME": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "rundir": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "notFound": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "sitefile": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "middlewares": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "httpClient": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "encoding": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "formLimit": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "strict": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "depth": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "encoding": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "env": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "level": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "outputJSON": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "buffer": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "appLogName": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "coreLogName": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "agentLogName": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "errorLogName": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "maxSockets": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "maxSockets": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "logging": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "serverTimeout": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "port": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+      "hostname": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\ItData\\zhufeng\\项目实战\\test\\node_modules\\_egg@2.20.2@egg\\config\\config.default.js"
+}

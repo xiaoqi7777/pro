@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    div .box{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+    }
+    .div1{
+     background: red ;
+     top: 100px;
+    }
+    .div2{
+     background: green;
+     top: 300px;
+
+    }
+    .div3{
+     background: springgreen;
+     top: 500px;
+
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="box div1"></div>
+    <div class="box div2"></div>
+    <div class="box div3"></div>
+  </div>
+
+  <script>
+    let $ = document.querySelector.bind(document)
+    // await async
+    function move(dom,time){
+        return new Promise((resolve,reject)=>{
+          let left = 0
+          let times = setInterval(()=>{
+            if(left >= time){
+              clearTimeout(times)
+              resolve('11')
+            }
+            left++
+            $(dom).style.left = left + 'px'    
+          },2)
+        })
+    }
+    
+    async function gen() { 
+     let a = await move('.div1',300)
+     console.log('a',a)
+      await move('.div2',300)
+      await move('.div3',300)
+    }
+    gen()
+
+
+    //generator
+      // function move(dom,time){
+      //     return new Promise((resolve,reject)=>{
+      //       let left = 0
+      //       let times = setInterval(()=>{
+      //         if(left >= time){
+      //           clearTimeout(times)
+      //           resolve('11')
+      //         }
+      //         left++
+      //         $(dom).style.left = left + 'px'    
+      //       },2)
+      //     })
+      // }
+      
+      // function *gen(){
+      //  let a = yield move('.div1',300)
+      //  console.log('a',a)
+      //   yield move('.div2',300)
+      //   yield move('.div3',300)
+      // }
+      // function co(it){
+      //   return new Promise((r,j)=>{
+      //     function next(){
+      //       let {value,done} = it.next('data')
+      //       if(!done){
+      //         value.then((data)=>{
+      //           console.log('循环中')
+      //           next(data)
+      //         })
+      //       }else{
+      //         r('完成')
+      //       }
+      //     }
+      //     next()
+      //   })
+      // }
+      // let it = gen()
+      // co(it).then((r,j)=>{
+      //   console.log('r',r)
+      // })
+
+      // let  a  = it.next()
+      // console.log('a',a)
+      // a.value.then((r,j)=>{
+      //   console.log('a',r)
+      //   let  a  = it.next()
+      //   a.value.then((r,j)=>{
+      //     let  a  = it.next()
+      //     a.value.then((r,j)=>{
+          
+      //     })
+      //   })
+      // })
+
+
+      
+
+
+
+
+
+
+    //回调
+    // function move(dom,time,callback){
+    //       let left = 0
+    //       let times = setInterval(()=>{
+    //         if(left >= time){
+    //           clearTimeout(times)
+    //           callback()
+    //         }
+    //         left++
+    //         $(dom).style.left = left + 'px'    
+    //       },2)
+    // }
+    // move('.div1',300,()=>{
+    //   move('.div2',300,()=>{
+    //     move('.div3',300,()=>{
+
+    //    })
+    //   })
+    // })
+
+    //promise
+    // function move(dom,time){
+    //     return new Promise((resolve,reject)=>{
+    //       let left = 0
+    //       let times = setInterval(()=>{
+    //         if(left >= time){
+    //           clearTimeout(times)
+    //           resolve()
+    //         }
+    //         left++
+    //         $(dom).style.left = left + 'px'    
+    //       },2)
+    //     })
+    // }
+    // move('.div1',300).then((resolve,reject)=>{
+    //   move('.div2',300).then((resolve,reject)=>{
+    //     move('.div3',300).then((resolve,reject)=>{
+      
+    //     })
+    //   })
+    // })
+  
+  </script>
+</body>
+</html>

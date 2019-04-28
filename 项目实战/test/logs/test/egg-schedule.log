@@ -1,0 +1,94 @@
+2019-04-03 13:38:24,551 INFO 3180 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js next time will execute after 37295451ms at 2019-04-04 00:00:00.002
+2019-04-03 13:38:24,552 INFO 3180 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 37296448ms at 2019-04-04 00:00:01.000
+2019-04-03 13:38:24,334 INFO 7532 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:38:24,334 INFO 7532 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:38:57,345 INFO 17012 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:38:57,345 INFO 17012 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:39:48,429 INFO 7648 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:39:48,429 INFO 7648 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:40:20,785 INFO 800 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:40:20,785 INFO 800 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:40:27,313 INFO 14568 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:40:27,313 INFO 14568 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:41:29,126 INFO 12168 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:41:29,126 INFO 12168 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:41:29,246 INFO 12584 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js next time will execute after 37110757ms at 2019-04-04 00:00:00.002
+2019-04-03 13:41:29,246 INFO 12584 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 37111754ms at 2019-04-04 00:00:01.000
+2019-04-03 13:41:58,293 INFO 13456 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:41:58,294 INFO 13456 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:43:37,670 INFO 4244 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:43:37,670 INFO 4244 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:52:46,900 INFO 18656 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js next time will execute after 36433103ms at 2019-04-04 00:00:00.003
+2019-04-03 13:52:46,901 INFO 18656 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 36434099ms at 2019-04-04 00:00:01.000
+2019-04-03 13:52:46,753 INFO 18084 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:52:46,753 INFO 18084 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:53:26,725 INFO 2304 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:53:26,725 INFO 2304 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:53:45,218 INFO 13952 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:53:45,218 INFO 13952 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:54:04,207 INFO 1472 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:54:04,207 INFO 1472 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:54:13,368 INFO 13700 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:54:13,368 INFO 13700 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:54:33,649 INFO 15108 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:54:33,649 INFO 15108 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:55:24,752 INFO 11968 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:55:24,752 INFO 11968 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:55:36,203 INFO 18320 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:55:36,204 INFO 18320 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:56:21,051 INFO 16312 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:56:21,051 INFO 16312 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:58:16,280 INFO 14548 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:58:16,280 INFO 14548 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 13:58:46,183 INFO 3116 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 13:58:46,184 INFO 3116 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:01:57,393 INFO 14364 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:01:57,393 INFO 14364 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:02:10,621 INFO 15972 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:02:10,621 INFO 15972 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:08:48,557 INFO 19308 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js next time will execute after 35471446ms at 2019-04-04 00:00:00.003
+2019-04-03 14:08:48,558 INFO 19308 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35472443ms at 2019-04-04 00:00:01.001
+2019-04-03 14:08:48,425 INFO 15660 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:08:48,425 INFO 15660 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:09:18,565 INFO 15160 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:09:18,565 INFO 15160 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:10:00,398 INFO 16888 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:10:00,398 INFO 16888 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:10:14,567 INFO 18012 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:10:14,567 INFO 18012 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:11:00,864 INFO 3896 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:11:00,864 INFO 3896 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:11:19,771 INFO 16152 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:11:19,771 INFO 16152 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:11:59,574 INFO 15900 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:11:59,574 INFO 15900 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:12:52,364 INFO 11036 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:12:52,365 INFO 11036 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:12:54,631 INFO 8544 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:12:54,631 INFO 8544 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:13:16,379 INFO 13812 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:13:16,379 INFO 13812 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:13:19,541 INFO 5900 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:13:19,541 INFO 5900 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:13:47,128 INFO 12300 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:13:47,128 INFO 12300 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:15:37,731 INFO 15968 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:15:37,731 INFO 15968 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:16:47,614 INFO 15688 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js next time will execute after 34992390ms at 2019-04-04 00:00:00.003
+2019-04-03 14:16:47,614 INFO 15688 [Timer] D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 34993386ms at 2019-04-04 00:00:01.000
+2019-04-03 14:16:47,487 INFO 9828 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:16:47,487 INFO 9828 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:18:28,052 INFO 3584 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:18:28,052 INFO 3584 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:19:23,871 INFO 17792 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:19:23,871 INFO 17792 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:19:37,066 INFO 12548 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:19:37,066 INFO 12548 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:22:35,774 INFO 16144 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:22:35,774 INFO 16144 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:24:23,075 INFO 17864 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:24:23,075 INFO 17864 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:24:36,809 INFO 10180 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:24:36,809 INFO 10180 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 14:24:43,933 INFO 13836 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 14:24:43,934 INFO 13836 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\test\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js

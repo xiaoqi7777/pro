@@ -1,0 +1,4 @@
+2019-04-03 19:50:18,843 INFO 10600 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\egg-news\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js
+2019-04-03 19:50:18,843 INFO 10600 [egg-schedule]: register schedule D:\ItData\zhufeng\项目实战\egg-news\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js
+2019-04-03 19:50:18,999 INFO 10600 [Timer] D:\ItData\zhufeng\项目实战\egg-news\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\clean_log.js next time will execute after 14981005ms at 2019-04-04 00:00:00.004
+2019-04-03 19:50:18,999 INFO 10600 [Timer] D:\ItData\zhufeng\项目实战\egg-news\node_modules\_egg-logrotator@3.0.7@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 14982001ms at 2019-04-04 00:00:01.000
