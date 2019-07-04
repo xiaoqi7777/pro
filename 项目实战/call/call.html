@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script>
+    Function.prototype.myCall = function(context,...args){
+    context = context ? Object(context) : window;
+    context.fn = this;
+    if(!args){
+      return context.fn()
+    }
+    // 利用toString 的特性
+    let r = eval('context.fn('+args+')')
+    delete context.fn;  
+    return r
+  }
+
+  let a = function(){
+    console.log(this)
+  } 
+  let O ={}
+  a.myCall(O)  
+
+  // Function.prototype.mcall = function(context,...args){
+  //   context = context?Object(context):window
+  //   context.fn = this
+  //   if(!args){
+  //     context.fn()
+  //   }
+  //   let r = eval('context.fn('+args+')')
+  //   delete context.fn 
+  //   return r
+  // }
+  // Function.prototype.mbind = function(context){
+  //   let that = this;
+  //   let arg1 = Array.prototype.call.slice(arguments,1)
+  //   function Fn()
+  //   function fBound(){
+  //     let arg2 = Array.prototype.call.slice(arguments)
+  //     return that.apply(this instanceof fBound?this:context,arg1.concat(arg2))
+  //   }
+  //   Fn.prototype = this
+  //   fBound.prototype = new Fn()
+  //   return fBound
+  // }
+
+  
+// a.js
+import {bar} from './b.js';
+export function foo() {
+  console.log('foo');
+  bar();
+  console.log('执行完毕');
+}
+foo();
+ 
+// b.js
+import {foo} from './a.js';
+export function bar() {
+  console.log('bar');
+  if (Math.random() > 0.5) {
+    foo();
+  }
+
+
+   </script>
+</body>
+</html>

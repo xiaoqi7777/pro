@@ -65,7 +65,7 @@ class Observer{ // 实现数据劫持
     Object.defineProperty(obj,key,{
       get(){
         //创建watcher时候 会去对应的内容 并且把watcher 放到全局上
-        Dep.targer && dep.subs.push(Dep.target)
+        Dep.target && dep.addSub.push(Dep.target)
         return value;
       },
       set:(newVal) => {

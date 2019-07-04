@@ -49,4 +49,5 @@ app.router(({history, app}) => (
     </div>
   </Router>
 ))
+
 app.start('#root')

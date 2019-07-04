@@ -86,47 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./loaders/css-loader.js!./loaders/less-loader.js!./src/index.less":
-/*!*************************************************************************!*\
-  !*** ./loaders/css-loader.js!./loaders/less-loader.js!./src/index.less ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("let list = []\r\nlist.push(\"body {\\n  background: \")\r\nlist.push('url('+__webpack_require__(/*! ./1.jpeg */ \"./src/1.jpeg\")+')')\r\nlist.push(\";\\n}\\n\")\r\nmodule.exports = list.join('')\n\n//# sourceURL=webpack:///./src/index.less?./loaders/css-loader.js!./loaders/less-loader.js");
-
-/***/ }),
-
-/***/ "./src/1.jpeg":
-/*!********************!*\
-  !*** ./src/1.jpeg ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("throw new Error(\"Module parse failed: Unexpected character '�' (1:0)\\nYou may need an appropriate loader to handle this file type.\\n(Source code omitted for this binary file)\");\n\n//# sourceURL=webpack:///./src/1.jpeg?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("console.log('x')\r\n\r\n__webpack_require__(/*! ./index.less */ \"./src/index.less\")\r\n\r\n// 将1.js 导入给inline 处理 inline loader不会每个文件都处理\r\n// -! 不会让文件 在去通过pre + normal loader来处理了\r\n// ! 没有normal\r\n// !! 上面都不要 只要inline 来处理\r\n// let a = require('!!inline!./1.js')\r\n// loader 默认是由两部分组成 pitch normal\r\n\r\n// import p from '../1.jpeg'\r\n// let img = document.createElement('img')\r\n// img.src = p;\r\n// document.body.appendChild(img)\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/index.less":
-/*!************************!*\
-  !*** ./src/index.less ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\n  let style = document.createElement('style');\n  style.innerHTML = __webpack_require__(/*! !../loaders/css-loader.js!../loaders/less-loader.js!./index.less */ \"./loaders/css-loader.js!./loaders/less-loader.js!./src/index.less\")\n  document.head.appendChild(style)\n  \n\n//# sourceURL=webpack:///./src/index.less?");
+eval("console.log('x')\r\n\r\n// require('./index.less')\r\n\r\n// 将1.js 导入给inline 处理 inline loader不会每个文件都处理\r\n// -! 不会让文件 在去通过pre + normal loader来处理了\r\n// ! 没有normal\r\n// !! 上面都不要 只要inline 来处理\r\n// let a = require('!!inline!./1.js')\r\n// loader 默认是由两部分组成 pitch normal\r\n\r\n// import p from '../1.jpeg'\r\n// let img = document.createElement('img')\r\n// img.src = p;\r\n// document.body.appendChild(img)\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

@@ -76,7 +76,7 @@ export default function createSagaMiddleware(){
           finish && finish();
         }
       }
-      next();
+      next(); 
     }
     sagaMiddleware.run = run;
     return function (next) {

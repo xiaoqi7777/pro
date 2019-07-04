@@ -14,7 +14,6 @@ import { combineReducers } from 'redux'
 //       console.log(key,reducers[key])
 //       obj[key] = reducers[key](state[key],actions)
 //     }
-
 //     return obj
 //   }
 // }

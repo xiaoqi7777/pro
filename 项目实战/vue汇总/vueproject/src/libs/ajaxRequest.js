@@ -41,7 +41,7 @@
     }
     request(options){
       console.log('123')
-      let instance = axios.create(config); // 返回axios实例
+      let instance = axios.create(); // 返回axios实例
       this.setInterceptor(instance,options.url)
       let config = this.merge(options);
       return instance(config)

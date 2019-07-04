@@ -26,6 +26,7 @@ const App = connect(
   state=>state.count
 )((props)=>(
   <div>
+    111 11111
       <h2>{props.number}</h2>
       <button onClick={()=>props.dispatch({type:'count/add'})}>+</button>
       <button onClick={()=>props.dispatch({type:'count/minus'})}>-</button>

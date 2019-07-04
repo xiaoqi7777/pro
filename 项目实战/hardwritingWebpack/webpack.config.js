@@ -1,6 +1,11 @@
 
 let path = require('path')
+let DonePlugin = require('./plugins/DonePlugin.js')
+let AsyncPlugin = require('./plugins/AsyncPlugin.js')
+let FileListPlugin = require('./plugins/FileListPlugin')
 // 插件都是类  作用监听每个钩子上的事件
+let html = require('html-webpack-plugin')
+let UploadPlugin = require('./plugins/UploadPlugin')
 class P1  {
   apply(compiler){
     compiler.hooks.done.tap('p1',()=>{
@@ -8,6 +13,7 @@ class P1  {
     })
   }
 }
+
 class P2  {
   apply(compiler){
     compiler.hooks.afterCompile.tap('p2',()=>{
@@ -15,14 +21,6 @@ class P2  {
     })
   }
 }
-// function loader1 (source){
-//   console.log('1111')
-//   return source
-// }
-// function loader2 (source){
-//   console.log('2222')
-//   return source
-// }
 
 module.exports = {
   mode:'development',
@@ -40,62 +38,28 @@ module.exports = {
   watch:true,
   module:{
     rules:[
-      {
-        test:/\.less$/,
-        use:['style-loader','css-loader','less-loader']
-      }
       // {
-      //   test:/\.jpeg$/,
-      //   // file-loader
-      //   // 目的就是根据图片生成一个md5 发射到dist目录下
-      //   // file-loader还会返回到当前的图片路径
-
-      //   // url-loader  会处理路径(通过file-loader emitFile将文件发射出来)
-      //   use:{
-      //     // loader:'file-loader'
-      //     loader:'url-loader',
-      //     options:{
-      //       limit:200*1024
-      //     }
-      //   },
-      // },
-      // {
-      //   test:/\.js$/,
-      //   use:{
-      //     loader:'banner-loader',
-      //     options:{
-      //       presets:{
-      //         text:'珠峰',
-      //       },
-      //       filename:path.resolve(__dirname,'banner.js')
-      //     }
-      //   }
+      //   test:/\.less$/,
+      //   use:['style-loader','css-loader','less-loader']
       // }
-      // {
-      //   test:/\.js$/,
-      //   // loader  就是一个函数, 函数的参数是一个源码
-      //   use:{
-      //    loader:'loader1'
-      //   },
-      // },
-      // {
-      //   test:/\.js$/,
-      //   // loader  就是一个函数, 函数的参数是一个源码
-      //   use:{
-      //    loader:'loader2'
-      //   },
-      // },
-      // {
-      //   test:/\.js$/,
-      //   // loader  就是一个函数, 函数的参数是一个源码
-      //   use:{
-      //    loader:'loader3'
-      //   },
-      // }
-
     ]
   },
   plugins:[
+    // new DonePlugin(),
+    // new AsyncPlugin(),
+    new html({
+      template:'./src/index.html',
+    }),
+    new FileListPlugin({
+      filename:'list.md'
+    }),
+    new UploadPlugin({
+      bucket:'',// 上传到那个空间
+      domain:'',// 内容管理 => 上传哪个域名
+      accesskey:'',// 个人中心 => ak
+      secretkey:'',// 个人中心 => sk
+    })
+
     // new P1(),
     // new P2()
   ]

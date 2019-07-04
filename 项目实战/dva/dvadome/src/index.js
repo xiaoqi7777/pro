@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,memo,useCallback,useMemo,useEffect} from 'react'
 import dva,{connect} from 'dva'
 
 // dva 其实就是一个函数
@@ -34,17 +34,48 @@ app.model({
   }
 });
 
-const App = connect(
-  state=>state.count
-)((props)=>(
-  <div>
-      <h2>{props.number}</h2>
-      <button onClick={()=>props.dispatch({type:'count/addAmount'})}>+</button>
-      <button onClick={()=>props.dispatch({type:'count/minusAmount'})}>-</button>
-  </div>
-))
+// const App = connect(
+//   state=>state.count
+// )((props)=>(
+//   <div>
+//       <h2>{props.number}</h2>
+//       <button onClick={()=>props.dispatch({type:'count/addAmount'})}>+</button>
+//       <button onClick={()=>props.dispatch({type:'count/minusAmount'})}>-</button>
+//   </div>
+// ))
 
-app.router(()=><App/>);
+function useNumber(){
+  let [number,setNumber] = useState(0)
+  useEffect(() => {
+    setInterval(()=>{
+      setNumber(number=>number+1)
+    },1000)
+  }, [])
+  return  [number,setNumber]
+}
+
+function Counter1(){
+  let  [number,setNumber] = useNumber()
+  return (
+      <div>
+        <button onClick={()=>setNumber(number+1)}>{number}</button>
+      </div>
+      )
+}
+function Counter2(){
+  let  [number,setNumber] = useNumber()
+  return( 
+      <div>
+        <button  onClick={()=>setNumber(number+1)}>{number}</button>
+      </div>
+  )
+}
+const App = ()=>(<>
+  <Counter1/>
+  <Counter2/>
+</>)
+
+app.router(()=><App />);
 app.start('#root')
 
 

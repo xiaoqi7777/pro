@@ -17,3 +17,5 @@
     原理:先在本地 跑一个无头浏览器 爬虫的原理 (不实时)
     npm install prerender-spa-plugin
 */
+
+exports.a =1;

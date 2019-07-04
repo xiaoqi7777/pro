@@ -1,6 +1,6 @@
 console.log('x')
 
-require('./index.less')
+// require('./index.less')
 
 // 将1.js 导入给inline 处理 inline loader不会每个文件都处理
 // -! 不会让文件 在去通过pre + normal loader来处理了
